@@ -16,7 +16,7 @@ git push -u origin dev
 set /p open_link="Do you want to open the GitHub link? (y/n): "
 if /i "%open_link%"=="y" (
     echo Opening GitHub link...
-    start "" "https://github.com/Inertia77/Blender-Works/tree/dev"
+    start "" "https://github.com/Inertia77/Unity-Game-PJT/tree/dev"
 ) else if /i "%open_link%"=="n" (
     echo Skipping link opening.
 ) else (
